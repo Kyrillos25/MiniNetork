@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201106140046_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106140046_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106141221_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106141221_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106141432_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106141432_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106141610_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106141610_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106142408_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106142408_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106142545_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106142545_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106143151_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106143151_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106143348_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106143348_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106143618_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106143618_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106143845_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106143845_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106144209_AddEntities.cs" />
+    <Compile Remove="Migrations\20201106144209_AddEntities.Designer.cs" />
+    <Compile Remove="Migrations\20201106163821_CreateTables.cs" />
+    <Compile Remove="Migrations\20201106163821_CreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20201106164114_CreateTables.cs" />
+    <Compile Remove="Migrations\20201106164114_CreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20201106165146_CreateTables.cs" />
+    <Compile Remove="Migrations\20201106165146_CreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20201106165221_CreateTables.cs" />
+    <Compile Remove="Migrations\20201106165221_CreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20201106171959_CreateTables.cs" />
+    <Compile Remove="Migrations\20201106171959_CreateTables.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>
